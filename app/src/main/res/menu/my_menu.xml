@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_show_all"
+        android:title="@string/show_all"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_complete"
+        android:title="@string/show_completed"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_pending"
+        android:title="@string/show_pending"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_sort_by_time"
+        android:title="@string/sort_by_time"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_sort_by_priority"
+        android:title="@string/sort_by_priority"
+        app:showAsAction="never"/>
+
+</menu>
