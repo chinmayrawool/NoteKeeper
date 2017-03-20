@@ -97,7 +97,7 @@ public class Note {
             o2.setP();
             Double o1P = Double.valueOf(o1.getP());
             Double o2P = Double.valueOf(o2.getP());
-            return o1P.compareTo(o2P);
+            return o2P.compareTo(o1P);
         }
     };
 
@@ -108,7 +108,7 @@ public class Note {
 
             Date d1 = new Date(Long.parseLong(o1.update_time));
             Date d2 = new Date(Long.parseLong(o2.update_time));
-            return d1.compareTo(d2);
+            return d2.compareTo(d1);
 
         }
     };
